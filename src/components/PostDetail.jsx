@@ -6,8 +6,9 @@ const PostDetail = ({ post }) => {
       <img
         src={post.image}
         alt={post.title}
-        className="w-full h-64 sm:h-80 object-cover rounded-md mb-4"
+        className="w-full h-60 object-cover rounded-md mb-4"
       />
+
       <h2 className="text-2xl font-bold text-gray-800 mb-2">{post.title}</h2>
       <p className="text-sm text-gray-500 mb-4">Criado por {post.createdBy}</p>
 

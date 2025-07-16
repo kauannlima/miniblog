@@ -1,7 +1,6 @@
-Claro! Aqui está uma versão atualizada do seu README para o projeto MiniBlog com React e Firebase, baseado no seu modelo e incluindo menção ao Firebase:
+Claro! Atualizei o README com o link correto do seu repositório e seu site em produção:
 
----
-
+````markdown
 # MiniBlog - Projeto React com Firebase
 
 Este é um projeto de MiniBlog desenvolvido para prática de conceitos modernos de desenvolvimento web, utilizando **React** no front-end e **Firebase** no back-end.
@@ -33,8 +32,9 @@ Este é um projeto de MiniBlog desenvolvido para prática de conceitos modernos 
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/kauannlima/miniblog.git
    ```
+````
 
 2. Instale as dependências:
 
@@ -83,4 +83,6 @@ Este projeto é licenciado sob a [Licença MIT](LICENSE).
 
 Desenvolvido por Kauan Lima 💻
 
----
+```
+
+```
