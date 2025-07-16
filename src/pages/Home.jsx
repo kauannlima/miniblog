@@ -25,7 +25,7 @@ const Home = () => {
       {/* Formulário de busca */}
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-md flex mb-10 gap-3"
+        className="w-full max-w-md mb-10 flex flex-col gap-4 sm:flex-row"
         role="search"
       >
         <input
@@ -51,7 +51,7 @@ const Home = () => {
         )}
 
         {!loading && posts && posts.length > 0 && (
-          <div className="flex flex-col">
+          <div className="flex flex-col space-y-6 px-2">
             {posts.map((post) => (
               <PostDetail key={post.id} post={post} />
             ))}
