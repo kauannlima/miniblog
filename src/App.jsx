@@ -37,13 +37,16 @@ function App() {
       setUser(user);
     });
   }, [auth]);
-
   if (loadingUser) {
-    return <OrbitProgress color="#32cd32" size="high" text="" textColor="" />;
+    return (
+      <div className="w-screen h-screen flex items-center justify-center">
+        <OrbitProgress color="#7C3AED" size="high" text="" textColor="" />
+      </div>
+    );
   }
 
   return (
-    <div className="App">
+    <div className="flex flex-col min-h-screen">
       <AuthProvider value={{ user }}>
         <BrowserRouter>
           <NavBar />
