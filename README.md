@@ -78,5 +78,3 @@ Este projeto é licenciado sob a [Licença MIT](LICENSE).
 ---
 
 Desenvolvido por Kauan Lima 💻
-
-```
